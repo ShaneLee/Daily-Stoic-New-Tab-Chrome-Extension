@@ -1,0 +1,72 @@
+html {
+  height: 100%;
+}
+
+body {
+  background: #74c0cf; /* Old browsers */
+  background: -moz-linear-gradient(top, #74c0cf 0%, #f1f7e2 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #74c0cf 0%,#f1f7e2 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #74c0cf 0%,#f1f7e2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74c0cf', endColorstr='#f1f7e2',GradientType=0 ); /* IE6-9 */
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.main {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 15%;
+  text-align: center;
+}
+
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size:1.7em;
+  margin-bottom: 1em;
+  font-weight: normal;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+h6 {
+  font-family: "Lucida Grande", Tahoma;
+  font-size: 1.2em;
+  font-weight: lighter;
+  font-variant: normal;
+  text-transform: uppercase;
+  color: #202B30;
+  margin-top: 10px;
+  letter-spacing: 0.4em;
+}
+
+h5 {
+  margin-top: 60px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #222;
+  font-size: 1.2em;
+  letter-spacing: 0.2em;
+}
+
+#options {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+}
+
+
+.weblink a {
+  font-family: "Lucida Grande", Tahoma;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  color: #202B30;
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.weblink a:hover {
+  text-decoration: underline;
+}
